@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="reg.css" />
+  </head>
+  <body>
+      <div class="container">
+        <div class="form-box">
+            <h1>Registration Form</h1>
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="Name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Name" size="26"
+                  name="Name"
+                />
+              </div><br>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label>
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+                    />Others</label>
+                </div><br>
+              <div class="form-group">
+            <label for="father name">F. Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fn" size="24"
+                  name="fn"/><br>
+              </div><br>
+              <div class="form-group">
+          <label for="job">Job&nbsp;:&nbsp;</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="job"
+                  size="26"
+                  name="job" />
+              </div> <br>
+              <div class="form-group">
+          <label for="number">Number:</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number" size="25"
+                  name="number" />
+                </div> <br>
+                <div class="form-group">
+          <label for="email">Email:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="email" size="28"
+                    name="email" />
+                </div> <br>
+                <div class="form-group">
+          <label for="password">Password:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="password" size="26"
+                    name="password" />
+              </div><br><br>
+              <a href="index.html"><input type="button" value="Back" class="btn btn-primary" /></a>&nbsp;
+              <input type="reset" class="btn btn-primary" />&nbsp;
+              <input type="submit" class="btn btn-primary" />
+              
+            </form>
+         </div>
+        </div>
+     </body>
+</html>
